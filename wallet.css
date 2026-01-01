@@ -1,0 +1,192 @@
+.wallet-container-main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
+}
+
+.wallet-balance-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.balance-info h2 {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.balance-amount {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.profit-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profit-percentage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+.profit-amount {
+    font-size: 18px;
+    color: #2ecc71;
+}
+
+.wallet-circle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wallet-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 12px;
+}
+
+.wallet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wallet-table-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.wallet-table-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    color: #888;
+    font-weight: normal;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.coin-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.positive {
+    color: #2ecc71;
+}
+
+.negative {
+    color: #e74c3c;
+}
+    
+.neutral {
+    color: #888;
+}
+.dark-theme h3, 
+.dark-theme h2{
+    color: rgb(157, 157, 157);
+}
+.dark-theme .wallet-container-main{
+      background-color: #0b0f1a;
+  color: #e4e4e7;
+}
+
+
+.dark-theme .wallet-table-section,
+.dark-theme .wallet-balance-section {
+  background-color: #1e293b;
+  color: #e4e4e7;
+}
+
+
+
+.dark-theme .footer-column a:hover {
+  color: #f39508;
+}
+
+.dark-theme .wallet-table {
+  border-color: #333;
+}
+
+
+.dark-theme .positive {
+  color: #3bd671;
+}
+
+.dark-theme .negative {
+  color: #ff5c5c;
+}
+
+.dark-theme .neutral {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .wallet-balance-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .wallet-circle {
+        justify-content: center;
+    }
+    
+    .balance-info {
+        text-align: center;
+    }
+    
+    .profit-info {
+        justify-content: center;
+    }
+    
+    .wallet-table {
+        overflow-x: scroll;
+    }
+}

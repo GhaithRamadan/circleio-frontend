@@ -1,0 +1,36 @@
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 60px auto 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.amount-input {
+  resize: none;
+  width: 100%;
+}
+
+.dark-theme .contact-container {
+  background-color: #111827;
+  color: #e4e4e7;
+}
+
+.dark-theme .contact-container h2 {
+  color: #ffffff;
+}

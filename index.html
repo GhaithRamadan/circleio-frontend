@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circleio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+  <nav>
+    <div class="logo">Circleio</div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="wallet.html">My Wallet</a>
+    <a href="contact.html">Contact</a>
+      <button class="theme-toggle" onclick="toggleDarkMode()">
+        <div class="theme-toggle-icon">
+          <img id="sunImage" src="img/dark-sun.png" alt="Sun" />
+        </div>
+      </button>
+    </div>
+  </nav>
+
+    <div class="container" data-aos="fade-down">  
+        <div class="left-section">
+            <div class="subtitle">Secure, simple, seamless</div>
+            <h1 class="title">
+                <span>Fast-track</span>
+                to crypto
+                success
+            </h1>
+        </div>
+        <div class="right-section">
+            <div class="tabs">
+                <div class="tab active">Buy</div>
+                <div class="tab">Sell</div>
+            </div>
+    
+    <div class="trade-form">
+        <div class="input-group">
+            <div class="box-text">You pay</div>
+            <div class="input-wrapper">
+                <input type="text" class="amount-input" value="0.001">
+                <div class="currency-select">
+                    <img src="img/bitcoin-icon.png" class="btc-icon" alt="Bitcoin">
+                    <span>BTC</span>
+                    <span>▼</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="swap-icon">
+            ⇅
+        </div>
+        <div class="input-group">
+            <div class="box-text">You receive</div>
+            <div class="input-wrapper">
+                <input type="text" class="amount-input" value="102696.90">
+                <div class="currency-select">
+                    <img src="https://static.simpleswap.io/images/currencies-logo/usd.svg" class="usdicon" alt="Bitcoin">
+                    <span>USD</span>
+                    <span>▼</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="buy-button">BUY</button>
+
+    </div>
+</div>
+
+</div>
+
+<div class="stats-section">
+    <div class="stat-box" data-aos="fade-down-right">
+        <div class="icon-box downloads-icon">
+            <img src="img/download.png" alt="Downloads">
+        </div>
+        <div class="stat-number">1</div>
+        <div class="stat-label">Downloads</div>
+    </div>
+
+    <div class="stat-box" data-aos="fade-down">
+        <div class="icon-box users-icon">
+            <img src="img/users.png" alt="User">
+        </div>
+        <div class="stat-number">0k+</div>
+        <div class="stat-label">Active users</div>
+    </div>
+
+    <div class="stat-box" data-aos="fade-down-left">
+        <div class="icon-box card-icon">
+            <img src="img/card.png" alt="card">
+        </div>
+        <div class="stat-number">$2</div>
+        <div class="stat-label">Transactions secured</div>
+    </div>
+</div>
+
+<div class="analytics-section">
+    <div class="top-row" data-aos="fade-down" data-aos-anchor-placement="top-center">
+        <div class="analytics-text">
+            <h2>Trading made easy<br>& instant for everyone</h2>
+            <p>Built-in features to buy, sell, or exchange <br>cryptocurrencies directly from the wallet, <br>ensuring security and seamless user experience.</p>
+        </div>
+<div class="analytics-image">
+  <img id="analyticsImage" src="img/phone.png" alt="Phone">
+  <div class="attribution">
+    Payment Gateway UI Mobile App Design via <a href="https://www.freepik.com/free-vector/payment-gateway-ui-mobile-app-design_11952496.htm#fromView=keyword&page=1&position=0&uuid=863baece-3a36-40a8-9a77-4bfd03b668b7&query=Trading+App+Ui">Freepik</a>. Licensed under Freepik License.
+  </div>
+</div>
+    </div>
+
+<div class="bottom-row">
+  <div class="analytics-card" data-aos="fade-down-right">
+                <p>Stock overview</p>
+    <img id="stockImage" src="img/stock.jpg" alt="Stock">
+    <div class="image-attribution">
+      Business Line Chart Graph Survey Results Vector Illustration via <a href="https://media.istockphoto.com/id/1159137227/vector/business-line-chart-graph-survey-results-vector-illustration-image-material-white-background.jpg?s=612x612&w=0&k=20&c=K6Yjhg298xwwt2x3_sa7uDF-vpTJ0jPafNVCJyLU5Lw=">iStock</a>,
+licensed under CC BY-NC-ND. For non-commercial use only, no modifications allowed.
+    </div>
+    <span class="card-desc">
+      Access live price charts, market trends, detailed analytics, real-time insights, and forecasts for assets.
+    </span>
+  </div>
+
+        <div class="analytics-card" data-aos="fade-down-left">
+            <p>Portfolio overview</p>
+            <span class="card-desc">Track your total holdings, profit/loss, individual<br>crypto performance, portfolio growth and trends.</span>
+            <img id="overviewImage" src="img/overview.png" alt="Overview">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="logo">Circleio</div>
+            <p class="footer-tagline">Fast crypto trading, at your fingertips.</p>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>APP</h3>
+                <a href="#">TRADE</a>
+                <a href="#">EXPLORE</a>
+            </div>
+            
+            <div class="footer-column">
+                <h3>NEED HELP?</h3>
+                <a href="contact.html">CONTACT US</a>
+                <a href="#">BLOG</a>
+            </div>
+            
+            <div class="footer-column">
+                <h3>COMMUNITY</h3>
+                <a href="#">X</a>
+                <a href="#">INSTAGRAM</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Circleio. All Rights Reserved © 2025. (This is just a school-project)</p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>

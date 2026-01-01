@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circleio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wallet.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="wallet.js" defer></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">Circleio</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="wallet.html" class="active">My Wallet</a>
+    <a href="contact.html">Contact</a>
+      <button class="theme-toggle" onclick="toggleDarkMode()">
+        <div class="theme-toggle-icon">
+          <img id="sunImage" src="img/dark-sun.png" alt="Sun" />
+        </div>
+      </button>
+    </div>
+  </nav>
+
+    <div class="wallet-container-main" data-aos="fade-up">
+        <div class="wallet-balance-section">
+            <div class="balance-info">
+                <h2>Your Balance</h2>
+                <div class="balance-amount">$1,245,630</div>
+                <div class="profit-info">
+                    <span class="profit-percentage">+2.0%</span>
+                    <span class="profit-amount">(+$300k)</span>
+                </div>
+            </div>
+            <div class="wallet-circle">
+                <div class="wallet-image">
+                    <img src="img/circle.png" alt="Wallet">
+                </div>
+            </div>
+        </div>
+
+        <div class="wallet-table-section">
+            <h3>Your Assets</h3>
+            <div class="wallet-table">
+                <table>
+                    <thead>
+                        <tr data-aos="fade-right">
+                            <th>Coin</th>
+                            <th>Amount</th>
+                            <th>Price</th>
+                            <th>Value</th>
+                            <th>24h Change</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="coin-info">
+                                    <div class="coin-icon">
+                                        <img src="img/bitcoin-icon.png" alt="Bitcoin">
+                                    </div>
+                                    <span>Bitcoin</span>
+                                </div>
+                            </td>
+                            <td>12.5 BTC</td>
+                            <td>$55,423</td>
+                            <td>$692,787</td>
+                            <td class="positive">+1.8%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="coin-info">
+                                    <div class="coin-icon">
+                                        <img src="img/eth-icon.png" alt="Ethereum">
+                                    </div>
+                                    <span>Ethereum</span>
+                                </div>
+                            </td>
+                            <td>98.3 ETH</td>
+                            <td>$3,245</td>
+                            <td>$318,983</td>
+                            <td class="positive">+3.2%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="coin-info">
+                                    <div class="coin-icon">
+                                        <img src="img/eth-icon.png" alt="Tether">
+                                    </div>
+                                    <span>Tether</span>
+                                </div>
+                            </td>
+                            <td>125,000 USDT</td>
+                            <td>$1.00</td>
+                            <td>$125,000</td>
+                            <td class="neutral">0.0%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="coin-info">
+                                    <div class="coin-icon">
+                                        <img src="img/eth-icon.png" alt="Solana">
+                                    </div>
+                                    <span>Solana</span>
+                                </div>
+                            </td>
+                            <td>1,450 SOL</td>
+                            <td>$73.42</td>
+                            <td>$106,459</td>
+                            <td class="negative">-0.7%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="coin-info">
+                                    <div class="coin-icon">
+                                        <img src="img/eth-icon.png" alt="XRP">
+                                    </div>
+                                    <span>XRP</span>
+                                </div>
+                            </td>
+                            <td>25,500 XRP</td>
+                            <td>$0.5254</td>
+                            <td>$13,398</td>
+                            <td class="positive">+1.3%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="logo">Circleio</div>
+                <p class="footer-tagline">Fast crypto trading, at your fingertips.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>APP</h3>
+                    <a href="#">TRADE</a>
+                    <a href="#">EXPLORE</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>NEED HELP?</h3>
+          <a href="contact.html">CONTACT US</a>
+                    <a href="#">BLOG</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>COMMUNITY</h3>
+                    <a href="#">X</a>
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Circleio. All Rights Reserved © 2025.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
