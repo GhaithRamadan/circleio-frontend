@@ -1,6 +1,6 @@
-# Circleio – Crypto Wallet UI (Frontend)
+# Circleio / Crypto Wallet UI 
 
-Ein kleines Frontend-Webprojekt das ich zur praktischen Anwendung meiner Grundlagen in **HTML, CSS und JavaScript** umgesetzt habe.
+Ein kleines Frontend Webprojekt das ich zur praktischen Anwendung meiner Grundlagen in **HTML, CSS und JavaScript** umgesetzt habe.
 
 ## Seiten
 - Home (Landing Page mit Trading-UI)
